@@ -16,6 +16,7 @@
 		E4E4F76F1DBA4260007CABAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E4F76D1DBA4260007CABAC /* LaunchScreen.storyboard */; };
 		E4E4F77A1DBA4260007CABAC /* liutaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F7791DBA4260007CABAC /* liutaoTests.swift */; };
 		E4E4F7851DBA4260007CABAC /* liutaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F7841DBA4260007CABAC /* liutaoUITests.swift */; };
+		E4E4F7931DBA5039007CABAC /* twoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F7921DBA5039007CABAC /* twoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E4E4F7801DBA4260007CABAC /* liutaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liutaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E4F7841DBA4260007CABAC /* liutaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liutaoUITests.swift; sourceTree = "<group>"; };
 		E4E4F7861DBA4260007CABAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E4F7921DBA5039007CABAC /* twoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				E4E4F7661DBA4260007CABAC /* ViewController.swift */,
 				E404654C1DBA4AFD003DDA95 /* MyViewController.swift */,
 				E404654E1DBA4FE5003DDA95 /* OneViewController.swift */,
+				E4E4F7921DBA5039007CABAC /* twoViewController.swift */,
 				E4E4F7681DBA4260007CABAC /* Main.storyboard */,
 				E4E4F76B1DBA4260007CABAC /* Assets.xcassets */,
 				E4E4F76D1DBA4260007CABAC /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 				E404654D1DBA4AFD003DDA95 /* MyViewController.swift in Sources */,
 				E4E4F7651DBA4260007CABAC /* AppDelegate.swift in Sources */,
 				E404654F1DBA4FE5003DDA95 /* OneViewController.swift in Sources */,
+				E4E4F7931DBA5039007CABAC /* twoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
