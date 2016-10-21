@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E404654D1DBA4AFD003DDA95 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404654C1DBA4AFD003DDA95 /* MyViewController.swift */; };
 		E4E4F7651DBA4260007CABAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F7641DBA4260007CABAC /* AppDelegate.swift */; };
 		E4E4F7671DBA4260007CABAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F7661DBA4260007CABAC /* ViewController.swift */; };
 		E4E4F76A1DBA4260007CABAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E4F7681DBA4260007CABAC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E404654C1DBA4AFD003DDA95 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		E4E4F7611DBA4260007CABAC /* liutao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liutao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E4F7641DBA4260007CABAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4E4F7661DBA4260007CABAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				E4E4F7641DBA4260007CABAC /* AppDelegate.swift */,
 				E4E4F7661DBA4260007CABAC /* ViewController.swift */,
+				E404654C1DBA4AFD003DDA95 /* MyViewController.swift */,
 				E4E4F7681DBA4260007CABAC /* Main.storyboard */,
 				E4E4F76B1DBA4260007CABAC /* Assets.xcassets */,
 				E4E4F76D1DBA4260007CABAC /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E4F7671DBA4260007CABAC /* ViewController.swift in Sources */,
+				E404654D1DBA4AFD003DDA95 /* MyViewController.swift in Sources */,
 				E4E4F7651DBA4260007CABAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				E4E4F78B1DBA4260007CABAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4E4F78C1DBA4260007CABAC /* Build configuration list for PBXNativeTarget "liutaoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				E4E4F78E1DBA4260007CABAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4E4F78F1DBA4260007CABAC /* Build configuration list for PBXNativeTarget "liutaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				E4E4F7911DBA4260007CABAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
